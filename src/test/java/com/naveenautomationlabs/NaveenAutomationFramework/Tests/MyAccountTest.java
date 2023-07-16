@@ -44,7 +44,7 @@ public class MyAccountTest extends TestBase {
 	public void validateMyAccountPage() {
 		loginPage = yourStorePage.clickOnLoginBtn();
 		myAccountPage = loginPage.loginToPortal();
-		Assert.assertEquals(wd.getTitle(), "My Account", "Wrong Page Loaded");
+		Assert.assertEquals(wd.getTitle(), "My", "Wrong Page Loaded");
 	}
 
 	@AfterMethod
