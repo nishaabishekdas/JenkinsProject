@@ -15,7 +15,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 
 import com.naveenautomationlabs.NaveenAutomationFramework.Listener.WebdriverEvent;
-import com.naveenautomationlabs.NaveenAutomationFramework.Utils.Browser;
 import com.naveenautomationlabs.NaveenAutomationFramework.Utils.Environment;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
