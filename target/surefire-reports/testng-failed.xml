@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest">
+        <methods>
+          <include name="setUpLogger"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="validateItemsCanRemoveFromWishList"/>
+        </methods>
+      </class> <!-- com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest -->
+      <class name="com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest">
+        <methods>
+          <include name="setUpLogger"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="validateLoginWithValidCredential"/>
+          <include name="validateMyAccountPage"/>
+          <include name="validateLoginToPortalAfterRegistration"/>
+        </methods>
+      </class> <!-- com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest -->
+      <class name="com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest">
+        <methods>
+          <include name="setUpLogger"/>
+          <include name="validateWhishListCount"/>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest -->
+      <class name="com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest">
+        <methods>
+          <include name="setUpLogger"/>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="validateMacBookPage"/>
+        </methods>
+      </class> <!-- com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

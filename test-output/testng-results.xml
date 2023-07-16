@@ -1,503 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-15T23:12:25 EDT" name="Suite" finished-at="2023-07-15T23:12:25 EDT" duration-ms="265">
+  <suite started-at="2023-07-16T01:52:10 EDT" name="Suite" finished-at="2023-07-16T01:53:26 EDT" duration-ms="75774">
     <groups>
     </groups>
-    <test started-at="2023-07-15T23:12:25 EDT" name="Test" finished-at="2023-07-15T23:12:25 EDT" duration-ms="265">
+    <test started-at="2023-07-16T01:52:10 EDT" name="Test" finished-at="2023-07-16T01:53:26 EDT" duration-ms="75774">
       <class name="com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest@6392827e]" started-at="2023-07-15T23:12:25 EDT" name="setUpLogger" finished-at="2023-07-15T23:12:25 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest@2ed2d9cb]" started-at="2023-07-16T01:52:57 EDT" name="setUpLogger" finished-at="2023-07-16T01:52:57 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest@6392827e]" started-at="2023-07-15T23:12:25 EDT" name="setUp" finished-at="2023-07-15T23:12:25 EDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest.setUp(MacBookTest.java:18)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest@2ed2d9cb]" started-at="2023-07-16T01:52:57 EDT" name="setUp" finished-at="2023-07-16T01:53:02 EDT" duration-ms="4374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateMacBookPage()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest@6392827e]" started-at="2023-07-15T23:12:25 EDT" name="validateMacBookPage" finished-at="2023-07-15T23:12:25 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest.setUp(MacBookTest.java:18)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="validateMacBookPage()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest@2ed2d9cb]" started-at="2023-07-16T01:53:02 EDT" name="validateMacBookPage" finished-at="2023-07-16T01:53:03 EDT" duration-ms="1196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMacBookPage -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest@6392827e]" started-at="2023-07-15T23:12:25 EDT" name="quit" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1689477145434" status="SKIP">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest@2ed2d9cb]" started-at="2023-07-16T01:53:03 EDT" name="quit" finished-at="2023-07-16T01:53:03 EDT" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.naveenautomationlabs.NaveenAutomationFramework.Tests.MacBookTest -->
       <class name="com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest@2ed2d9cb]" started-at="2023-07-15T23:12:25 EDT" name="setUpLogger" finished-at="2023-07-15T23:12:25 EDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest@d5b810e]" started-at="2023-07-16T01:53:03 EDT" name="setUpLogger" finished-at="2023-07-16T01:53:03 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest@2ed2d9cb]" started-at="2023-07-15T23:12:25 EDT" name="setUp" finished-at="2023-07-15T23:12:25 EDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest.setUp(LaptopsAndNotebooksTest.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest@d5b810e]" started-at="2023-07-16T01:53:03 EDT" name="setUp" finished-at="2023-07-16T01:53:07 EDT" duration-ms="4175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateWhishListCount()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest@2ed2d9cb]" started-at="2023-07-15T23:12:25 EDT" name="validateWhishListCount" finished-at="2023-07-15T23:12:25 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest.setUp(LaptopsAndNotebooksTest.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="validateWhishListCount()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest@d5b810e]" started-at="2023-07-16T01:53:07 EDT" name="validateWhishListCount" finished-at="2023-07-16T01:53:26 EDT" duration-ms="18434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateWhishListCount -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest@2ed2d9cb]" started-at="2023-07-15T23:12:25 EDT" name="quit" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1689477145444" status="SKIP">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest@d5b810e]" started-at="2023-07-16T01:53:26 EDT" name="quit" finished-at="2023-07-16T01:53:26 EDT" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.naveenautomationlabs.NaveenAutomationFramework.Tests.LaptopsAndNotebooksTest -->
       <class name="com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="setUpLogger" finished-at="2023-07-15T23:12:25 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:37 EDT" name="setUpLogger" finished-at="2023-07-16T01:52:37 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="setUp" finished-at="2023-07-15T23:12:25 EDT" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest.setUp(MyAccountTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:37 EDT" name="setUp" finished-at="2023-07-16T01:52:41 EDT" duration-ms="4242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginToPortalAfterRegistration()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="validateLoginToPortalAfterRegistration" finished-at="2023-07-15T23:12:25 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest.setUp(MyAccountTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="validateLoginToPortalAfterRegistration()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:41 EDT" name="validateLoginToPortalAfterRegistration" finished-at="2023-07-16T01:52:45 EDT" duration-ms="3659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginToPortalAfterRegistration -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="quit" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1689477145411" status="SKIP">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:45 EDT" name="quit" finished-at="2023-07-16T01:52:45 EDT" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1689477145413" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:45 EDT" name="setUp" finished-at="2023-07-16T01:52:49 EDT" duration-ms="4199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginWithValidCredential()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="validateLoginWithValidCredential" finished-at="2023-07-15T23:12:25 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest.setUp(MyAccountTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="validateLoginWithValidCredential()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:49 EDT" name="validateLoginWithValidCredential" finished-at="2023-07-16T01:52:51 EDT" duration-ms="1814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginWithValidCredential -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="quit" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1689477145417" status="SKIP">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:51 EDT" name="quit" finished-at="2023-07-16T01:52:51 EDT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1689477145419" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:51 EDT" name="setUp" finished-at="2023-07-16T01:52:55 EDT" duration-ms="4189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateMyAccountPage()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="validateMyAccountPage" finished-at="2023-07-15T23:12:25 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest.setUp(MyAccountTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="validateMyAccountPage()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:55 EDT" name="validateMyAccountPage" finished-at="2023-07-16T01:52:57 EDT" duration-ms="1795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMyAccountPage -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@1b2abca6]" started-at="2023-07-15T23:12:25 EDT" name="quit" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1689477145423" status="SKIP">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest@6392827e]" started-at="2023-07-16T01:52:57 EDT" name="quit" finished-at="2023-07-16T01:52:57 EDT" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyAccountTest -->
       <class name="com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest@e15b7e8]" started-at="2023-07-15T23:12:25 EDT" name="setUpLogger" finished-at="2023-07-15T23:12:25 EDT" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest@1b2abca6]" started-at="2023-07-16T01:52:10 EDT" name="setUpLogger" finished-at="2023-07-16T01:52:10 EDT" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest@e15b7e8]" started-at="2023-07-15T23:12:25 EDT" name="setUp" finished-at="2023-07-15T23:12:25 EDT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest.setUp(MyWishListTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest@1b2abca6]" started-at="2023-07-16T01:52:10 EDT" name="setUp" finished-at="2023-07-16T01:52:16 EDT" duration-ms="5820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateItemsCanRemoveFromWishList()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest@e15b7e8]" started-at="2023-07-15T23:12:25 EDT" name="validateItemsCanRemoveFromWishList" finished-at="2023-07-15T23:12:25 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.naveenautomationlabs.NaveenAutomationFramework.base.TestBase.initialisation(TestBase.java:60)
-at com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest.setUp(MyWishListTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="validateItemsCanRemoveFromWishList()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest@1b2abca6]" started-at="2023-07-16T01:52:16 EDT" name="validateItemsCanRemoveFromWishList" finished-at="2023-07-16T01:52:37 EDT" duration-ms="20449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateItemsCanRemoveFromWishList -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest@e15b7e8]" started-at="2023-07-15T23:12:25 EDT" name="quit" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1689477145399" status="SKIP">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.NaveenAutomationFramework.Tests.MyWishListTest@1b2abca6]" started-at="2023-07-16T01:52:37 EDT" name="quit" finished-at="2023-07-16T01:52:37 EDT" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
