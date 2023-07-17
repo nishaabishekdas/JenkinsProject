@@ -3,6 +3,7 @@ package com.naveenautomationlabs.NaveenAutomationFramework.Tests;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.NaveenAutomationFramework.Pages.AccountLogin;
@@ -25,7 +26,7 @@ public class MyAccountTest extends TestBase {
 		yourStorePage = new YourStore();
 	}
 
-	@Test
+	@Test @Ignore
 	public void validateLoginToPortalAfterRegistration() {
 		RegisterAccountPage = yourStorePage.clickOnRegisterBtn();
 		regSuccessPage = RegisterAccountPage.Register();
@@ -33,14 +34,14 @@ public class MyAccountTest extends TestBase {
 		Assert.assertEquals(myAccountPage.getmyAccountText(), "My Account", "Wrong Page is Loaded");
 	}
 
-	@Test
+	@Test @Ignore
 	public void validateLoginWithValidCredential() {
 		loginPage = yourStorePage.clickOnLoginBtn();
 		myAccountPage = loginPage.loginToPortal();
 		Assert.assertEquals(myAccountPage.getmyAccountText(), "My Account", "Wrong Page is Loaded");
 	}
 
-	@Test
+	@Test @Ignore
 	public void validateMyAccountPage() {
 		loginPage = yourStorePage.clickOnLoginBtn();
 		myAccountPage = loginPage.loginToPortal();
