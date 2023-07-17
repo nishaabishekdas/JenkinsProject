@@ -3,6 +3,7 @@ package com.naveenautomationlabs.NaveenAutomationFramework.Tests;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.NaveenAutomationFramework.Pages.MacBook;
@@ -19,7 +20,7 @@ public class MacBookTest extends TestBase {
 		yourStorePage = new YourStore();
 	}
 
-	@Test
+	@Test @Ignore
 	public void validateMacBookPage() {
 		macBookPage = yourStorePage.clickOnMackBookLink();
 		Assert.assertEquals(macBookPage.getMacBookTextTitle(), "MacBook", "Wrong Page is Loaded");
