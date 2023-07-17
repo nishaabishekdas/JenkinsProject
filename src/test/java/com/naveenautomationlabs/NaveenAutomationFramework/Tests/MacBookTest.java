@@ -24,7 +24,11 @@ public class MacBookTest extends TestBase {
 		macBookPage = yourStorePage.clickOnMackBookLink();
 		Assert.assertEquals(macBookPage.getMacBookTextTitle(), "MacBook", "Wrong Page is Loaded");
 	}
-
+	@Test 
+	public void validateMacBookPageWithWrongOutcome() {
+		macBookPage = yourStorePage.clickOnMackBookLink();
+		Assert.assertEquals(macBookPage.getMacBookTextTitle(), "Mac", "Wrong Page is Loaded");
+	}
 	@AfterMethod
 	public void quit() {
 		tearDown();
