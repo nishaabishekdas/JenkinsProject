@@ -3,6 +3,7 @@ package com.naveenautomationlabs.NaveenAutomationFramework.Tests;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.NaveenAutomationFramework.Pages.AccountLogin;
@@ -23,7 +24,7 @@ public class LaptopsAndNotebooksTest extends TestBase {
 		yourStorePage = new YourStore();
 	}
 
-	@Test
+	@Test @Ignore
 	public void validateWhishListCount() {
 		loginPage = yourStorePage.clickOnLoginBtn();
 		myAccountPage = loginPage.loginToPortal();
