@@ -26,7 +26,7 @@ public class MyAccountTest extends TestBase {
 		yourStorePage = new YourStore();
 	}
 
-	@Test @Ignore
+	@Test
 	public void validateLoginToPortalAfterRegistration() {
 		RegisterAccountPage = yourStorePage.clickOnRegisterBtn();
 		regSuccessPage = RegisterAccountPage.Register();
@@ -34,14 +34,14 @@ public class MyAccountTest extends TestBase {
 		Assert.assertEquals(myAccountPage.getmyAccountText(), "My Account", "Wrong Page is Loaded");
 	}
 
-	@Test @Ignore
+	@Test 
 	public void validateLoginWithValidCredential() {
 		loginPage = yourStorePage.clickOnLoginBtn();
 		myAccountPage = loginPage.loginToPortal();
 		Assert.assertEquals(myAccountPage.getmyAccountText(), "My Account", "Wrong Page is Loaded");
 	}
 
-	@Test @Ignore
+	@Test 
 	public void validateMyAccountPage() {
 		loginPage = yourStorePage.clickOnLoginBtn();
 		myAccountPage = loginPage.loginToPortal();

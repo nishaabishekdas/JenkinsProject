@@ -27,7 +27,7 @@ public class MyWishListTest extends TestBase {
 		yourStorePage = new YourStore();
 	}
 
-	@Test @Ignore
+	@Test 
 	public void validateItemsCanRemoveFromWishList() {
 		loginPage = yourStorePage.clickOnLoginBtn();
 		myAccountPage = loginPage.loginToPortal();

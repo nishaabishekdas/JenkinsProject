@@ -24,7 +24,7 @@ public class LaptopsAndNotebooksTest extends TestBase {
 		yourStorePage = new YourStore();
 	}
 
-	@Test @Ignore
+	@Test 
 	public void validateWhishListCount() {
 		loginPage = yourStorePage.clickOnLoginBtn();
 		myAccountPage = loginPage.loginToPortal();
